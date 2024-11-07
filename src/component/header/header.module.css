@@ -1,0 +1,61 @@
+.header {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.navbar {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  background-color: #ebebeb;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+}
+
+.menu > span {
+  width: 1.3rem;
+  height: 2px;
+  margin: 2px 0;
+  border-radius: 3px;
+  background-color: #151614;
+  display: block;
+}
+
+.mainSloganWrapper {
+  padding-top: 4rem;
+  font-size: 5.5rem;
+  color: #151614;
+  width: 80rem;
+}
+
+.mainSlogan {
+  font-family: var(--font-PPMori);
+  font-weight: 300;
+  background-color: var(--background);
+  overflow: hidden;
+}
+
+.subSloganWrapper {
+  padding-top: 3rem;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.subSlogan {
+  line-height: 4rem;
+  width: 60%;
+  font-family: var(--font-NanumSquareRound);
+  font-weight: 300;
+}

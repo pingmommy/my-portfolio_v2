@@ -1,0 +1,55 @@
+.title {
+  font-family: var(--font-PPMori);
+  font-weight: 300;
+  font-size: 5.5rem;
+  margin-top: 12rem;
+}
+
+.myWorkSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 5rem;
+  gap: 2rem;
+}
+
+.visualContents {
+  width: 100%;
+  aspect-ratio: 606.134 / 368.636;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.visualContents:hover {
+  .img {
+    transform: scale(1.06);
+  }
+}
+
+.img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+}
+
+.myWorkTitle {
+  padding-top: 1.5rem;
+  font-family: var(--font-PPMori);
+  font-weight: 400;
+  font-size: 2rem;
+  padding-left: 0.7rem;
+}
+
+.myWorkSummary {
+  padding-top: 1rem;
+  font-family: var(--font-PPMori);
+  font-weight: 300;
+  font-size: 1.2rem;
+  padding-left: 0.7rem;
+}
+
+@media (max-width: 400px) {
+  .myWorkSection {
+    grid-template-columns: 1fr;
+  }
+}

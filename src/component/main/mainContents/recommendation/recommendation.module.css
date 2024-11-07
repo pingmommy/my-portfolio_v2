@@ -1,0 +1,33 @@
+.wrapper {
+  width: 100%;
+  margin-top: 17rem;
+  overflow: hidden;
+}
+
+.commentItem {
+  background-color: white;
+  height: 32rem;
+  border-radius: 1rem;
+  padding: 3rem 2.5rem 12.5rem;
+}
+
+.cardTop {
+  font-size: 1.6rem;
+  white-space: pre-line;
+  letter-spacing: 0.2rem;
+  line-height: 2.3rem;
+  font-weight: 300;
+}
+
+.cardBottom {
+  position: absolute;
+  left: 2.5rem;
+  right: 1.5rem;
+  bottom: 2.75rem;
+  font-size: 1.1rem;
+}
+
+.nameTag {
+  font-size: 1.6rem;
+  padding-bottom: 0.5rem;
+}

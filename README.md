@@ -1,18 +1,15 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## stack
 
-First, run the development server:
+- next 14.2.16
+- react 18.3.1
+- react-dom 18.3.1
+- swiper 11.1.14
+- gsap
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- runaway (영상 AI)
+- figma
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
