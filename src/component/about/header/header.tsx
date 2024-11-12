@@ -3,14 +3,11 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import SplitType from "split-type";
 import { useRef } from "react";
-import Link from "next/link";
-import Image from "next/image";
 import style from "./header.module.css";
-import LogoImg from "../../../public/logo.png";
 import Arrow from "./arrow";
 
 export default function Header() {
-  const container = useRef(null);
+  const headContainer = useRef(null);
 
   useGSAP(
     () => {
@@ -18,41 +15,40 @@ export default function Header() {
         types: "chars,lines",
       });
 
-      gsap.set(text.lines, { yPercent: 60, opacity: 0 });
       gsap.to(".arrow", { y: 20, repeat: -1, yoyo: true });
 
       const tl = gsap.timeline();
-      tl.from("#logo", { y: -50, opacity: 0, duration: 1 }, 0)
-        .to(
+      tl.to(headContainer.current, { opacity: 1 })
+
+        .from(
           text.lines,
           {
-            yPercent: 0,
-            opacity: 1,
+            yPercent: 100,
+
             ease: "none",
             duration: 0.7,
-            stagger: 0.7,
+            stagger: 0.4,
           },
           0
         )
-        .from(text.chars, { y: 20, stagger: 0.05, ease: "none" }, 0)
-        .from("#subSlogan", { y: 50, opacity: 0, duration: 1 }, 0);
+        .from(text.chars, { y: 20, stagger: 0.05, ease: "none" }, 0);
+      tl.to(
+        "#subSlogan",
+        {
+          y: 0,
+          opacity: 1,
+          duration: 1.2,
+          ease: "power2.inOut",
+        },
+        0
+      );
     },
-    { scope: container }
+    { scope: headContainer }
   );
 
   return (
     <>
-      <header className={style.header} ref={container}>
-        <nav className={style.navbar} id="logo">
-          <Link href="/">
-            <Image src={LogoImg} alt="logo" />
-          </Link>
-          <button className={style.menu}>
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-        </nav>
+      <header className={style.header} ref={headContainer}>
         <section className={style.mainSloganWrapper}>
           <h1 className={`${style.mainSlogan} mainText-ani`}>
             Dreaming of the

@@ -12,6 +12,10 @@
   gap: 2rem;
 }
 
+.myWorkWrapper {
+  padding-bottom: 4rem;
+}
+
 .visualContents {
   width: 100%;
   aspect-ratio: 606.134 / 368.636;

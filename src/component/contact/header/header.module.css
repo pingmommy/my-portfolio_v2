@@ -1,0 +1,33 @@
+.header {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.mainSloganWrapper {
+  /* padding-top: 4rem; */
+  padding-top: 10rem;
+  font-size: 5.5rem;
+  color: #151614;
+  width: 80rem;
+}
+
+.mainSlogan {
+  font-family: var(--font-PPMori);
+  font-weight: 300;
+  background-color: var(--background);
+  overflow: hidden;
+}
+
+.subSloganWrapper {
+  padding-top: 4rem;
+  font-size: 2.3rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.subSlogan {
+  line-height: 4rem;
+  width: 55%;
+  font-family: var(--font-PPMori);
+  font-weight: 300;
+}

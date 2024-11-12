@@ -5,6 +5,7 @@ import gsap from "gsap";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
+import Link from "next/link";
 
 export default function Contact() {
   const contact = useRef(null);
@@ -31,16 +32,16 @@ export default function Contact() {
 
   return (
     <>
-      <footer className={style.contactSection} ref={contact}>
+      <section className={style.contactSection} ref={contact}>
         <div className={`${style.contactWrapper} hello`}>
           <h2 className={style.contactTitle}>Let&apos;s work together</h2>
-          <a className={style.contactBtn}>
+          <Link href="/contact" className={style.contactBtn}>
             <span className={style.enter}>→&nbsp;</span>
             Say Hello
             <span className={style.leave}>&nbsp;→</span>
-          </a>
+          </Link>
         </div>
-      </footer>
+      </section>
     </>
   );
 }

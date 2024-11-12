@@ -1,6 +1,7 @@
 .header {
   width: 90%;
   margin: 2rem auto;
+  opacity: 0;
 }
 
 .navbar {
@@ -33,7 +34,8 @@
 }
 
 .mainSloganWrapper {
-  padding-top: 4rem;
+  /* padding-top: 4rem; */
+  padding-top: 7rem;
   font-size: 5.5rem;
   color: #151614;
   width: 80rem;
@@ -58,4 +60,6 @@
   width: 60%;
   font-family: var(--font-NanumSquareRound);
   font-weight: 300;
+  opacity: 0;
+  transform: translateY(50px);
 }

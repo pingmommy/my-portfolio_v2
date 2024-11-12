@@ -1,0 +1,33 @@
+.contactWrapper {
+  padding-top: 12rem;
+  padding-bottom: 22rem;
+}
+
+.itemWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5rem 0;
+}
+.itemTitle {
+  padding-top: 1rem;
+  font-size: 2.2rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+}
+
+.itemContent {
+  width: 55%;
+}
+
+.contentSub {
+  font-size: 2.4rem;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+.contentLink {
+  font-size: 1.7rem;
+  font-weight: 900;
+  border-bottom: 2px solid black;
+}

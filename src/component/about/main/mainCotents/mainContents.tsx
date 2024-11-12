@@ -1,7 +1,7 @@
 import About from "./about/About";
 import Icon from "./icon/icon";
-import MyWork from "./myWork/myWork";
-import Recommendation from "./recommendation/recommendation";
+import MyWork from "./mywork/myWork";
+import Recommendation from "./recomnendation/recommendation";
 import SkillCarousel from "./skill/skillCarousel";
 
 export default function MainContents() {

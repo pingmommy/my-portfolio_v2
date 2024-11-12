@@ -11,18 +11,18 @@ export default function MainVideo() {
   useGSAP(
     () => {
       gsap.registerPlugin(ScrollTrigger);
-      gsap.from("#video", {
+      gsap.to("#video", {
         scrollTrigger: {
           trigger: box.current,
           start: "top",
-          end: "+=5000 center",
-          // markers: true,
+          end: "+=250% center",
+          markers: true,
           pin: true,
-
+          invalidateOnRefresh: true,
           scrub: true,
         },
         scale: 0.9,
-        duration: 1,
+        // duration: 1,
       });
     },
     { scope: box }
@@ -36,8 +36,13 @@ export default function MainVideo() {
             loop
             autoPlay
             muted
-            style={{ width: "100%", height: "100%", borderRadius: "20px" }}
-            src="https://storage.cloud.google.com/hohopingmom/main-video%20.mp4"
+            style={{
+              width: "100%",
+              height: "100%",
+              borderRadius: "20px",
+              objectFit: "cover",
+            }}
+            src="https://storage.cloud.google.com/hohopingmom/main-video2.mp4"
           />
         </div>
       </section>

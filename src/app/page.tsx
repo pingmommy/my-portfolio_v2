@@ -1,17 +1,22 @@
-import Contact from "@/component/footer/contact";
-import Header from "@/component/header/header";
-import MainContents from "@/component/main/mainContents/mainContents";
-import MainVideo from "@/component/main/mainVideo/mainVideo";
+import Contact from "@/component/about/bottom/contact";
+import Header from "@/component/about/header/header";
+import MainContents from "@/component/about/main/mainCotents/mainContents";
+
+import MainVideo from "@/component/about/main/mainVideo/mainVideo";
+import Footer from "@/component/footer/footer";
+import Menu from "@/component/menu/menu";
 
 export default function Home() {
   return (
     <>
+      <Menu />
       <Header />
       <main>
         <MainVideo />
         <MainContents />
+        <Contact />
       </main>
-      <Contact />
+      <Footer />
     </>
   );
 }

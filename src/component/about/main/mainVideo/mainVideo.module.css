@@ -6,3 +6,9 @@
 .VideoBox {
   width: 100%;
 }
+
+@media (max-width: 960px) {
+  .VideoBox {
+    height: 300px;
+  }
+}

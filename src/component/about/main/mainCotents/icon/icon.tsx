@@ -5,9 +5,9 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
 import { useRef } from "react";
-import RespIcon from "../../../../../public/diagram-project.svg";
-import ChallengeIcon from "../../../../../public/hand-holding-seeding.svg";
-import PassionIcon from "../../../../../public/sort-amount-up.svg";
+import RespIcon from "../../../../../../public/diagram-project.svg";
+import ChallengeIcon from "../../../../../../public/hand-holding-seeding.svg";
+import PassionIcon from "../../../../../../public/sort-amount-up.svg";
 
 export default function Icon() {
   const icon = useRef(null);

@@ -15,7 +15,7 @@ export default function SkillCarousel() {
       gsap.from(".skill-item", {
         scrollTrigger: {
           trigger: skill.current,
-          start: "top center",
+          start: "+=100 80%",
           end: "bottom center",
           markers: true,
         },
