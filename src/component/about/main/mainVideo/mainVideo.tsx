@@ -16,7 +16,7 @@ export default function MainVideo() {
           trigger: box.current,
           start: "top",
           end: "+=250% center",
-          markers: true,
+          // markers: true,
           pin: true,
           invalidateOnRefresh: true,
           scrub: true,
