@@ -8,7 +8,7 @@ import gsap from "gsap";
 import MenuItem from "./menu-item";
 
 const menuLinks = [
-  { path: "http://localhost:3000/", label: "About" },
+  { path: "/", label: "About" },
   { path: "/work", label: "Work" },
   { path: "/contact", label: "Hello" },
 ];
