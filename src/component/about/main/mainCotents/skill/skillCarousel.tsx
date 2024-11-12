@@ -17,7 +17,7 @@ export default function SkillCarousel() {
           trigger: skill.current,
           start: "+=100 80%",
           end: "bottom center",
-          markers: true,
+          // markers: true,
         },
         y: 150,
         opacity: 0,
