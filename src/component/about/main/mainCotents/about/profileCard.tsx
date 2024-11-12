@@ -31,7 +31,7 @@ export function Reversed_ProfileCard({ src, title, text }: Props) {
           <p className={style.TextContents}>{text}</p>
         </div>
         <div className={style.VisualContents}>
-          <video loop autoPlay muted src={src} />
+          <video loop autoPlay muted playsInline src={src} />
         </div>
       </section>
     </>
