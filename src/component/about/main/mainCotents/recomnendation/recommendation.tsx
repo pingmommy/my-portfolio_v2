@@ -41,7 +41,7 @@ export default function Recommendation() {
           id="recommend-item"
         >
           <Swiper
-            slidesPerView={3}
+            slidesPerView={"auto"}
             spaceBetween={30}
             navigation={true}
             modules={[Navigation]}

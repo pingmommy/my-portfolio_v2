@@ -2,32 +2,39 @@
   width: 100%;
   margin-top: 17rem;
   overflow: hidden;
+  font-size: 1rem;
 }
 
 .commentItem {
   background-color: white;
-  height: 32rem;
-  border-radius: 1rem;
-  padding: 3rem 2.5rem 12.5rem;
+  height: 32em;
+  border-radius: 1em;
+  padding: 3em 2.5em 12.5em;
 }
 
 .cardTop {
-  font-size: 1.6rem;
+  font-size: 1.6em;
   white-space: pre-line;
-  letter-spacing: 0.2rem;
-  line-height: 2.3rem;
+  letter-spacing: 0.2em;
+  line-height: 1.3em;
   font-weight: 300;
 }
 
 .cardBottom {
   position: absolute;
-  left: 2.5rem;
-  right: 1.5rem;
-  bottom: 2.75rem;
-  font-size: 1.1rem;
+  left: 2.5em;
+  right: 1.5em;
+  bottom: 2.75em;
+  font-size: 1.1em;
 }
 
 .nameTag {
-  font-size: 1.6rem;
-  padding-bottom: 0.5rem;
+  font-size: 1.6em;
+  padding-bottom: 0.5em;
+}
+
+@media (orientation: portrait) {
+  .wrapper {
+    font-size: 1vmax;
+  }
 }

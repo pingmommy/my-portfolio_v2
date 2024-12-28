@@ -40,3 +40,7 @@ a {
 .swiper-button-disabled {
   opacity: 0 !important;
 }
+
+.swiper-slide {
+  width: 30vmax !important;
+}
