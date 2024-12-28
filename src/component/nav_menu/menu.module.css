@@ -191,3 +191,37 @@
     opacity: 0;
   }
 }
+
+@media (max-width: 768px) {
+  .menuLogo {
+    width: 18vmax;
+    height: 4.5vmax;
+    mask-size: 18vmax 5.375vmax;
+  }
+
+  .menu_copy {
+    padding-top: 8vmax;
+  }
+
+  .closeBtn {
+    height: 4vmax;
+    width: 4vmax;
+    font-size: 4vmax;
+  }
+
+  .closeBtn::after {
+    width: 3vmax;
+    height: 3vmax;
+  }
+
+  .openBtn {
+    height: 4vmax;
+    width: 4vmax;
+    font-size: 4vmax;
+  }
+
+  .openBtn::after {
+    width: 3vmax;
+    height: 3vmax;
+  }
+}
