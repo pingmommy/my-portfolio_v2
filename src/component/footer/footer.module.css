@@ -2,18 +2,18 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  width: calc(100% - 6rem);
-  margin: 2rem 3rem;
+  width: 100%;
+  padding: 2vmax 3vmax;
 }
 
 .bottomBtn {
-  width: 3rem;
-  height: 3rem;
+  width: 3vmax;
+  height: 3vmax;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.06);
   transition: transform 0.5s;
   cursor: pointer;
-  margin-bottom: 2rem;
+  margin-bottom: 2vmax;
 }
 
 .bottomBtn:hover {
@@ -21,11 +21,11 @@
 }
 
 .bottomBtn > svg {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.5vmax;
+  height: 2.5vmax;
   position: relative;
-  top: calc(50% - 1.2rem);
-  left: calc(50% - 1.2rem);
+  top: calc(50% - 1.2vmax);
+  left: calc(50% - 1.2vmax);
 }
 
 .secondBox {
@@ -36,10 +36,10 @@
 }
 
 .secondBoxText {
-  font-size: 1.6rem;
+  font-size: 1.6vmax;
   letter-spacing: 0.25rem;
 }
 
 .secondBoxIcon {
-  font-size: 2rem;
+  font-size: 2vmax;
 }
