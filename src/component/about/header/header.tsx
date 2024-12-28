@@ -51,9 +51,9 @@ export default function Header() {
       <header className={style.header} ref={headContainer}>
         <section className={style.mainSloganWrapper}>
           <h1 className={`${style.mainSlogan} mainText-ani`}>
-            Dreaming of the
+            Dreaming of the future today
           </h1>
-          <h1 className={`${style.mainSlogan} mainText-ani`}>future today</h1>
+          {/* <h1 className={`${style.mainSlogan} mainText-ani`}></h1> */}
         </section>
         <section className={style.subSloganWrapper}>
           <h2 className={style.subSlogan} id="subSlogan">

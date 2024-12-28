@@ -26,7 +26,7 @@ export default function Menu() {
   useGSAP(
     () => {
       gsap.set(".menu-link-item-holder", { yPercent: 120 });
-      gsap.to(".menu-bar", {
+      gsap.to("#menu-bar", {
         y: 0,
         opacity: 1,
         duration: 1.5,
@@ -34,7 +34,7 @@ export default function Menu() {
       });
       tl.current = gsap
         .timeline({ paused: true })
-        .to(".menu-overlay", {
+        .to("#menu-overlay", {
           duration: 1.25,
           clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
           ease: "power4.inOut",
@@ -62,23 +62,23 @@ export default function Menu() {
   return (
     <>
       <section ref={container} id="logo">
-        <div className="menu-container ">
-          <div className="menu-bar">
+        <div className="menu-container">
+          <div className={style.menu_bar} id="menu-bar">
             <Link href="/" className={`${style.menuLogo} ${style.LogoBlack}`}>
               ARA CHO
             </Link>
 
             <div className={style.openBtn} onClick={toggleMenu}></div>
           </div>
-          <div className="menu-overlay">
-            <div className="menu-overlay-bar">
+          <div className={style.menu_overlay} id="menu-overlay">
+            <div className={style.menu_overlay_bar}>
               <Link href="/" className={style.menuLogo}>
                 ARA CHO
               </Link>
               <div className={style.closeBtn} onClick={toggleMenu}></div>
             </div>
 
-            <div className="menu-copy">
+            <div className={style.menu_copy}>
               {menuLinks.map((link, index) => (
                 <MenuItem
                   path={link.path}
