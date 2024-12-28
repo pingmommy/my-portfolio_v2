@@ -3,14 +3,11 @@
 import Link from "next/link";
 import style from "./footer.module.css";
 import { GithubOutlined } from "@ant-design/icons";
-import { useEffect } from "react";
 import { ScrollToPlugin } from "gsap/all";
 import gsap from "gsap";
 
 export default function Footer() {
-  useEffect(() => {
-    gsap.registerPlugin(ScrollToPlugin);
-  }, []);
+  gsap.registerPlugin(ScrollToPlugin);
 
   const footerAni = () => {
     gsap.to(window, { duration: 2, scrollTo: 0 });

@@ -169,15 +169,6 @@
   left: 0;
   opacity: 1;
 }
-.menu_link_item_holder:hover::before {
-  opacity: 1;
-  width: 100%;
-}
-
-.menu_link_item_holder:hover::after {
-  width: 100%;
-  opacity: 0;
-}
 
 .menu_link_item_holder a {
   color: var(--background);
@@ -187,4 +178,16 @@
   line-height: 92%;
   font-family: var(--font-PPMori);
   font-weight: 300;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .menu_link_item_holder:hover::before {
+    opacity: 1;
+    width: 100%;
+  }
+
+  .menu_link_item_holder:hover::after {
+    width: 100%;
+    opacity: 0;
+  }
 }
