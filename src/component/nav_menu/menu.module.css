@@ -150,11 +150,11 @@
 .menu_link_item_holder::before,
 .menu_link_item_holder::after {
   content: "";
-  height: 0.225rem;
+  height: 0.225vmax;
   background-color: #67ecfc;
   position: absolute;
-  margin-top: 1rem;
-  top: 4.25em;
+  margin-top: 1vmax;
+  top: 4.2vmax;
   transition: width 0.5s ease-in-out, opacity 0ms linear 0.5s;
 }
 

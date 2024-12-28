@@ -10,7 +10,7 @@ export default function MenuItem({ path, label, toggleMenu }: Props) {
   return (
     <>
       <div className={style.menu_link_item} onClick={toggleMenu}>
-        <div className={style.menu_link_item_holder}>
+        <div className={style.menu_link_item_holder} id="item_holder">
           <Link href={path} className={style.menu_link}>
             {label}
           </Link>

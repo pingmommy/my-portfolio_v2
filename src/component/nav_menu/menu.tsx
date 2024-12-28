@@ -25,7 +25,7 @@ export default function Menu() {
 
   useGSAP(
     () => {
-      gsap.set(".menu-link-item-holder", { yPercent: 120 });
+      gsap.set("#item_holder", { yPercent: 120 });
       gsap.to("#menu-bar", {
         y: 0,
         opacity: 1,
@@ -39,7 +39,7 @@ export default function Menu() {
           clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
           ease: "power4.inOut",
         })
-        .to(".menu-link-item-holder", {
+        .to("#item_holder", {
           yPercent: 0,
           duration: 1,
           stagger: 0.1,
