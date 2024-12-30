@@ -31,3 +31,9 @@
   font-family: var(--font-PPMori);
   font-weight: 300;
 }
+
+@media (orientation: portrait) {
+  .header {
+    padding-top: 5vmax;
+  }
+}

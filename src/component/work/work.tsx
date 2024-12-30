@@ -4,7 +4,7 @@ import { useRef } from "react";
 import MyWorkUI from "../about/main/mainCotents/mywork/myWorkUI";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-
+import style from "./work.module.css";
 export default function RecentWork() {
   const container = useRef(null);
 
@@ -31,8 +31,8 @@ export default function RecentWork() {
   );
 
   return (
-    <>
+    <main className={style.wrapper}>
       <MyWorkUI myContainer={container} />
-    </>
+    </main>
   );
 }

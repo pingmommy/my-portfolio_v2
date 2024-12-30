@@ -12,51 +12,45 @@
 
 .contactTitle {
   font-family: var(--font-PPMori);
-  font-size: 5.5rem;
+  font-size: 5.5vmax;
   font-weight: 300;
 }
 
 .contactBtn {
   width: fit-content;
-  height: 4rem;
+  height: 4vmax;
   background-color: #151614;
   color: white;
   font-family: var(--font-PPMori);
   font-weight: 300;
-  font-size: 1.8rem;
-  border-radius: 3rem;
-  margin: 2rem auto;
+  font-size: 1.8vmax;
+  border-radius: 3vmax;
+  margin: 2vmax auto;
   display: block;
   border: none;
   overflow: hidden;
-  padding: 1.2rem 3.5rem 1.2rem 2.5rem;
+  padding: 1.2vmax 3.5vmax 1.2vmax 2.5vmax;
   text-align: left;
   position: relative;
   transition: all 0.8s;
 }
 .contactBtn > span {
   position: absolute;
-  width: 2rem;
+  width: 2vmax;
 }
 
 .enter {
-  left: -2rem;
+  left: -2vmax;
 }
 
 .contactBtn:hover {
   background-color: #04b4c8;
-  padding-right: 2.5rem;
-  padding-left: 3.5rem;
+  padding-right: 2.5vmax;
+  padding-left: 3.5vmax;
   .enter {
-    left: 1rem;
+    left: 1vmax;
   }
   .leave {
-    right: -2rem;
-  }
-}
-
-@media (max-width: 400px) {
-  .contactSection {
-    height: 50vh;
+    right: -2vmax;
   }
 }

@@ -31,3 +31,9 @@
   font-weight: 900;
   border-bottom: 2px solid black;
 }
+
+@media (max-width: 450px) {
+  .contactWrapper {
+    height: 80vh;
+  }
+}

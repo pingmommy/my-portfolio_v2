@@ -26,7 +26,7 @@
 
 .subSloganWrapper {
   /* padding-top: 3vmax; */
-  padding: 3vmax 0;
+  padding: 3vmax 0 0 0;
   font-size: 2vmax;
   display: flex;
   flex-direction: row-reverse;
@@ -49,6 +49,7 @@
   }
   .subSloganWrapper {
     font-size: 1.5vmax;
+    padding-bottom: 16vmax;
   }
 
   .subSlogan {
@@ -60,6 +61,9 @@
   .mainSloganWrapper {
     font-size: 7.2vmax;
     align-items: center;
+  }
+  .subSloganWrapper {
+    padding: 3vmax 0;
   }
 }
 

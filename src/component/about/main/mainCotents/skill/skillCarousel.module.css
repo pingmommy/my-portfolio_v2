@@ -31,7 +31,7 @@
 
 .columnBox {
   overflow: hidden;
-  max-height: 37.5rem;
+  /* max-height: 37.5rem; */
   height: 37.5rem;
   width: 35%;
 }
@@ -64,4 +64,10 @@
   border-radius: 50%;
   margin-right: 5px;
   display: inline-block;
+}
+
+@media (max-width: 450px) {
+  .columnBox {
+    height: 46.5rem;
+  }
 }

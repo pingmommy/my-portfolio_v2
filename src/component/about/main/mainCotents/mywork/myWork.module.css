@@ -19,6 +19,7 @@
 .visualContents {
   width: 100%;
   aspect-ratio: 606.134 / 368.636;
+
   overflow: hidden;
   border-radius: 20px;
 }
@@ -40,7 +41,7 @@
   padding-top: 1.5rem;
   font-family: var(--font-PPMori);
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 2vmax;
   padding-left: 0.7rem;
 }
 
@@ -48,12 +49,19 @@
   padding-top: 1rem;
   font-family: var(--font-PPMori);
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.2vmax;
   padding-left: 0.7rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .myWorkSection {
     grid-template-columns: 1fr;
+  }
+  .visualContents {
+    width: 100%;
+    aspect-ratio: 606.134 / 348.636;
+  }
+  .title {
+    font-size: 8.5rem;
   }
 }

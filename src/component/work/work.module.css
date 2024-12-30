@@ -1,0 +1,13 @@
+.wrapper {
+  padding-bottom: 5rem;
+  margin: 0 auto;
+
+  width: 90%;
+}
+
+@media (orientation: portrait) {
+  .wrapper {
+    padding-top: 7vmax;
+    padding-bottom: 15vmax;
+  }
+}

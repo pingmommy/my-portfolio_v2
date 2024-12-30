@@ -21,14 +21,14 @@ export const MY_WORK_DATA = [
     src: pingImg,
     alt: "a dog low poly image",
     name: "My Dog 삥이!",
-    summary: "# NextJS 14 / GSAP / DB / Vercel",
-    href: "/",
+    summary: "# NextJS 14 / GSAP / supabase / Vercel",
+    href: "https://ping-app-aras-projects-1337218a.vercel.app/",
   },
   {
     src: portfolioImg,
     alt: "ara cho site image",
     name: "Portfolio Site",
-    summary: "# NextJS 14 / GSAP / Figma / Runaway AI",
+    summary: "# NextJS 14 / GSAP / Figma / Runway AI / Vercel",
     href: "/",
   },
 ];

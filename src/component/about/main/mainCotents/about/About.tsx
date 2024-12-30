@@ -27,7 +27,6 @@ export default function About() {
           y: 70,
           opacity: 0,
           duration: 1.5,
-          stagger: 1.2,
         })
       );
     },

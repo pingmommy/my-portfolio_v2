@@ -8,9 +8,9 @@ export default function Work() {
       <header>
         <Menu />
       </header>
-      <main className="my-wrapper" style={{ paddingBottom: "5rem" }}>
-        <RecentWork />
-      </main>
+
+      <RecentWork />
+
       <Footer />
     </>
   );
