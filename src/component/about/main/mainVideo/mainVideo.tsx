@@ -11,18 +11,21 @@ export default function MainVideo() {
   useGSAP(
     () => {
       gsap.registerPlugin(ScrollTrigger);
-      gsap.to("#video", {
-        scrollTrigger: {
-          trigger: box.current,
-          start: "top",
-          end: "+=250% center",
-          // markers: true,
-          pin: true,
-          invalidateOnRefresh: true,
-          scrub: true,
-        },
-        scale: 0.9,
-        // duration: 1,
+      const mm = gsap.matchMedia();
+
+      mm.add("(min-width:960px)", () => {
+        gsap.to("#video", {
+          scrollTrigger: {
+            trigger: box.current,
+            start: "top",
+            end: "+=250% center",
+            // markers: true,
+            pin: true,
+            scrub: true,
+          },
+          scale: 0.9,
+          // duration: 1,
+        });
       });
     },
     { scope: box }

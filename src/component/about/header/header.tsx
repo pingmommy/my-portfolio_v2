@@ -11,37 +11,27 @@ export default function Header() {
 
   useGSAP(
     () => {
-      const text = SplitType.create(".mainText-ani", {
-        types: "chars,lines",
+      const text = SplitType.create(".my-word", {
+        types: "lines",
       });
 
       gsap.to(".arrow", { y: 20, repeat: -1, yoyo: true });
 
       const tl = gsap.timeline();
-      tl.to(headContainer.current, { opacity: 1 })
+      tl
+        // .to(headContainer.current, { opacity: 1 })
 
-        .from(
-          text.lines,
+        .from(text.lines, { yPercent: 100, stagger: 0.4, ease: "none" }, 0)
+        .to(
+          "#subSlogan",
           {
-            yPercent: 100,
-
-            ease: "none",
-            duration: 0.7,
-            stagger: 0.4,
+            y: 0,
+            opacity: 1,
+            duration: 1.2,
+            ease: "power2.inOut",
           },
           0
-        )
-        .from(text.chars, { y: 20, stagger: 0.05, ease: "none" }, 0);
-      tl.to(
-        "#subSlogan",
-        {
-          y: 0,
-          opacity: 1,
-          duration: 1.2,
-          ease: "power2.inOut",
-        },
-        0
-      );
+        );
     },
     { scope: headContainer }
   );
@@ -51,9 +41,9 @@ export default function Header() {
       <header className={style.header} ref={headContainer}>
         <section className={style.mainSloganWrapper}>
           <h1 className={`${style.mainSlogan} mainText-ani`}>
-            Dreaming of the future today
+            <p className="my-word">Dreaming of the</p>
+            <p className="my-word">future today</p>
           </h1>
-          {/* <h1 className={`${style.mainSlogan} mainText-ani`}></h1> */}
         </section>
         <section className={style.subSloganWrapper}>
           <h2 className={style.subSlogan} id="subSlogan">

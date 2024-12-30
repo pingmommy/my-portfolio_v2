@@ -1,7 +1,7 @@
 .header {
   width: 90%;
   margin: 0 auto;
-  opacity: 0;
+  opacity: 1;
 }
 
 .mainSloganWrapper {
@@ -19,6 +19,9 @@
   font-weight: 300;
   background-color: var(--background);
   overflow: hidden;
+  & p {
+    overflow: hidden;
+  }
 }
 
 .subSloganWrapper {
