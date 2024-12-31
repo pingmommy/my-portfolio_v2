@@ -5,7 +5,7 @@ import gsap from "gsap";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
-import mainVideo from "/videos/main-video1.mp4";
+import mainVideo from "https://my-project-video.s3.ap-northeast-2.amazonaws.com/main-video.mp4";
 import BackgroundVideo from "next-video/background-video";
 
 export default function MainVideo() {

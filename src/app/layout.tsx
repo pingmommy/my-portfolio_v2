@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { PPMori, NanumSquareRound } from "./font";
+import Lenis from "@/component/lenis/lenis";
 
 export const metadata: Metadata = {
   title: "ARA CHO",
@@ -15,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${PPMori.variable} ${NanumSquareRound.variable}`}>
-        {children}
+        <Lenis>{children}</Lenis>
       </body>
     </html>
   );

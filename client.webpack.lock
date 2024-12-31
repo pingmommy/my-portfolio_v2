@@ -1,0 +1,4 @@
+{
+  "https://my-project-video.s3.ap-northeast-2.amazonaws.com/main-video.mp4": { "integrity": "sha512-qcOnZuanAfPp4of0VQiwD7gDd5EehNIS35aQrXGqc0RtCuy4LIZNIeVwVgY9ScUmzAa2G8/PFB21uSgAHqRvPw==", "contentType": "video/mp4" },
+  "version": 1
+}
