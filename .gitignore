@@ -41,3 +41,10 @@ next-env.d.ts
 
 
 public/main-video.mp4
+
+# next-video
+videos/*
+!videos/*.json
+!videos/*.js
+!videos/*.ts
+public/_next-video

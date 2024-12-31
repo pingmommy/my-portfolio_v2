@@ -1,0 +1,10 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dot {
+  transform: translateY(30%);
+  opacity: 0;
+}
