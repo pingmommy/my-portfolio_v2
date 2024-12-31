@@ -18,8 +18,7 @@ export default function Header() {
       gsap.to(".arrow", { y: 20, repeat: -1, yoyo: true });
 
       const tl = gsap.timeline();
-      tl
-        // .to(headContainer.current, { opacity: 1 })
+      tl.to(headContainer.current, { autoAlpha: 1 })
 
         .from(text.lines, { yPercent: 100, stagger: 0.4, ease: "none" }, 0)
         .to(

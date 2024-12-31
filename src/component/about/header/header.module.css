@@ -1,7 +1,7 @@
 .header {
   width: 90%;
   margin: 0 auto;
-  opacity: 1;
+  visibility: hidden;
 }
 
 .mainSloganWrapper {

@@ -44,3 +44,7 @@ a {
 .swiper-slide {
   width: 30vmax !important;
 }
+
+mux-video {
+  --media-object-fit: cover;
+}

@@ -7,9 +7,10 @@ import { useRef } from "react";
 
 export default function MyLoading() {
   const container = useRef<HTMLDivElement>(null);
+
   useGSAP(
     () => {
-      gsap.to("#dot", { yPercent: -20, opacity: 1, stagger: 0.1 });
+      gsap.to("#dot", { yPercent: -10, opacity: 1, stagger: 0.1 });
     },
     {
       scope: container,
