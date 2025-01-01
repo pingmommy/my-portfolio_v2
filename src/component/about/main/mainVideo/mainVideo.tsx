@@ -5,7 +5,6 @@ import gsap from "gsap";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
-import mainVideo from "https://my-project-video.s3.ap-northeast-2.amazonaws.com/main-video.mp4";
 import BackgroundVideo from "next-video/background-video";
 
 export default function MainVideo() {
@@ -37,13 +36,18 @@ export default function MainVideo() {
       <section className={style.VideoWrapper} ref={box}>
         <div className={style.VideoBox} id="video">
           <BackgroundVideo
-            suppressHydrationWarning
             loop
             autoPlay
             muted
             playsInline
-            src={mainVideo}
             className={style.video}
+            streamType="on-demand"
+            playbackId="AEBkvgEKmRHnoBGhCsY1XqdoH01sm02CG02M7wj0000oGytM"
+            _hlsConfig={{
+              maxBufferLength: 30, // 최대 버퍼 길이를 30초로 설정
+              maxBufferSize: 60 * 1000 * 1000, // 버퍼의 최대 크기 (bytes)
+              maxBufferHole: 0.5,
+            }}
           />
         </div>
       </section>

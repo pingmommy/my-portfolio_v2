@@ -9,3 +9,9 @@
   transform: translateY(30%);
   opacity: 0;
 }
+
+@media (max-width: 1024px) {
+  .wrapper {
+    font-size: 4vmax;
+  }
+}

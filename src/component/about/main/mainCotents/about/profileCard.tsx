@@ -1,7 +1,6 @@
-import BackgroundVideo from "next-video/background-video";
 import style from "./About.module.css";
-
 interface Props {
+  // src: Asset;
   src: string;
   title: string;
   text: string;
@@ -12,13 +11,7 @@ export function ProfileCard({ src, title, text }: Props) {
     <>
       <section className={`${style.profileBox} profile-item`}>
         <div className={style.VisualContents}>
-          <BackgroundVideo
-            loop
-            autoPlay
-            muted
-            src={src}
-            className={style.video}
-          />
+          <video loop autoPlay muted src={src} className={style.video} />
         </div>
         <div className={style.TextWrapper}>
           <h3 className={style.ProfileTitle}>{title}</h3>
@@ -38,14 +31,7 @@ export function Reversed_ProfileCard({ src, title, text }: Props) {
           <p className={style.TextContents}>{text}</p>
         </div>
         <div className={style.VisualContents}>
-          <BackgroundVideo
-            loop
-            autoPlay
-            muted
-            playsInline
-            src={src}
-            className={style.video}
-          />
+          <video loop autoPlay muted src={src} className={style.video} />
         </div>
       </section>
     </>
