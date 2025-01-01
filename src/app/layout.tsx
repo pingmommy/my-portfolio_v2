@@ -5,7 +5,12 @@ import Lenis from "@/component/lenis/lenis";
 
 export const metadata: Metadata = {
   title: "ARA CHO",
-  description: "This app is ARA CHO's portfolio site",
+  description: "ARA CHO's portfolio site",
+  openGraph: {
+    title: "ARA CHO",
+    description: "ARA CHO's portfolio site",
+    images: [{ url: "/aracho_og.jpg", width: 700, height: 500 }],
+  },
 };
 
 export default function RootLayout({
