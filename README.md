@@ -1,21 +1,31 @@
 
-#포트폴리오site
+## 🌨️소개
 
-## stack
+'조아라'를 소개하는 웹사이트입니다. 
+🌐배포링크 : https://my-portfolio-v2-orpin.vercel.app/
 
-- next 14.2.16
-- react 18.3.1
-- react-dom 18.3.1
-- swiper 11.1.14
-- gsap
+**대표 이미지 (데스크탑버전)** 
 
-- runaway (영상 AI)
+## 🌨️개발환경
+
+- react: 18.3.1
+- next: 14.2.16
+- typescript: ^5
+- gsap: ^3.12.5
+- lenis: ^1.1.18
+- next-video: ^2.0.0
+- swiper: ^11.1.14
+- runway (영상 AI)
 - figma
 
 
 
-## Deploy on Vercel
+## 🌨️특징
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 애니메이션을 통한 사용자경험
+- 다양한 시각적 자료를 통해 효과적인 정보전달
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌨️Architecture
+  
+
+
