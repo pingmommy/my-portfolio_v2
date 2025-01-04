@@ -1,3 +1,6 @@
+![header](https://capsule-render.vercel.app/api?type=waving&color=ece8e9&height=300&section=header&text=ARA%20CHO'S%20PORTFOLIO&fontSize=90&fontColor=151614)
+
+<br/>
 
 ## 🌬️소개
 
@@ -45,7 +48,7 @@
 
 <br/>
 
-### 부드럽고 직관적인 사용자 경험
+###       "부드럽고 직관적인 사용자 경험"
 
 <br/>
 
