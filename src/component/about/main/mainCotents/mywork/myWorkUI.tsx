@@ -2,7 +2,6 @@ import Image from "next/image";
 import { MY_WORK_DATA } from "./myWork.data";
 import style from "./myWork.module.css";
 import { MutableRefObject } from "react";
-import Link from "next/link";
 
 interface Props {
   myContainer: MutableRefObject<null>;
@@ -19,7 +18,7 @@ export default function MyWorkUI({ myContainer }: Props) {
           <section className={`${style.myWorkSection} recent-item`}>
             {MY_WORK_DATA.map((item, idx) => (
               <div className={style.myWorkWrapper} key={idx}>
-                <Link href={item.href} target="_blank">
+                <a href={item.href} target="_blank">
                   <div className={style.visualContents}>
                     <Image
                       className={style.img}
@@ -27,7 +26,7 @@ export default function MyWorkUI({ myContainer }: Props) {
                       alt={item.alt}
                     />
                   </div>
-                </Link>
+                </a>
                 <h3 className={style.myWorkTitle}>{item.name}</h3>
                 <p className={style.myWorkSummary}>{item.summary}</p>
               </div>

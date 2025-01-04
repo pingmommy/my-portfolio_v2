@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import style from "./footer.module.css";
 import { GithubOutlined } from "@ant-design/icons";
 import { ScrollToPlugin } from "gsap/all";
@@ -42,9 +41,12 @@ export default function Footer() {
           <div className={style.secondBox}>
             <p className={style.secondBoxText}>ARA CHO 2024</p>
             <div className={style.secondBoxIcon}>
-              <Link href="#">
+              <a
+                href="https://github.com/pingmommy/my-portfolio_v2"
+                target="_blank"
+              >
                 <GithubOutlined />
-              </Link>
+              </a>
             </div>
           </div>
         </section>

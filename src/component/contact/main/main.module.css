@@ -29,11 +29,29 @@
 .contentLink {
   font-size: 1.7rem;
   font-weight: 900;
-  border-bottom: 2px solid black;
+  border-bottom: 0.2vmax solid black;
 }
 
 @media (max-width: 450px) {
   .contactWrapper {
     height: 80vh;
+  }
+
+  .contentLink {
+    font-size: 2.1rem;
+  }
+
+  .main_content {
+    font-size: 2.6rem;
+  }
+
+  .main_itemTitle {
+    font-size: 2.65rem;
+  }
+}
+
+@media (orientation: portrait) {
+  .contactWrapper {
+    min-height: 65vh;
   }
 }
