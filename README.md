@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=ece8e9&height=300&section=header&text=ARA%20CHO'S%20PORTFOLIO&fontSize=90&fontColor=151614)
+![header](https://capsule-render.vercel.app/api?type=waving&color=ece8e9&height=300&section=header&text=ARA%20CHO'S%20PORTFOLIO&fontSize=60&fontColor=151614)
 
 <br/>
 
@@ -29,6 +29,8 @@
 **대표 이미지 (데스크탑버전)** 
 
 <br/>
+
+<img width='100%' src='https://github.com/user-attachments/assets/29117466-2f62-4b28-a639-fa76a412b14f'/>
 
 ## 🌬️개발환경
 
