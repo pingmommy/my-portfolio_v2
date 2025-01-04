@@ -1,8 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=ece8e9&height=300&section=header&text=ARA%20CHO'S%20PORTFOLIO&fontSize=60&fontColor=151614)
 
-<br/>
 
-## 🌬️소개
+## ☁️소개
 
 이 포트폴리오 사이트는 제가 평소 지향하고, 실천했던 세 가지의 핵심 가치, **열정(Passion), 도전(Challenge), 책임(Responsibility)** 을 중심으로 기획되었습니다. 
 
@@ -27,12 +26,11 @@
 <br/>
 
 **대표 이미지 (데스크탑버전)** 
+<img width='100%' src='https://github.com/user-attachments/assets/0f5b91ff-f896-43b1-b0cf-15880ae60191'/>
 
 <br/>
 
-<img width='100%' src='https://github.com/user-attachments/assets/0f5b91ff-f896-43b1-b0cf-15880ae60191'/>
-
-## 🌬️개발환경
+## ☁️개발환경
 
 - react: 18.3.1
 - next: 14.2.16
@@ -46,26 +44,21 @@
 
 <br/>
 
-## 🌬️특징
+## ☁️특징
 
-<br/>
 
-###       "부드럽고 직관적인 사용자 경험"
-
-<br/>
-
-- **부드러운 애니메이션 효과**
+- **부드러운 애니메이션 효과로 사용자경험⬆️**
 
   
   모든 페이지와 섹션에 적용된 애니메이션 효과로, 부드럽고 매끄러운 화면 전환.
 
 
-- **시각적인 콘텐츠 중심**
+- **시각적인 콘텐츠을 활용하여 직관적으로👀**
 
   
   영상과 썸네일 이미지로 내용을 직관적으로 전달하여, 텍스트 이상의 풍부한 경험을 제공.
 
-- **반응형 웹 디자인**
+- **반응형 웹 디자인📱**
 
   
   다양한 디바이스에서도 최적의 사용자 경험을 제공할 수 있도록 반응형으로 제작.
