@@ -30,7 +30,7 @@
 
 <br/>
 
-<img width='100%' src='https://github.com/user-attachments/assets/29117466-2f62-4b28-a639-fa76a412b14f'/>
+<img width='100%' src='https://github.com/user-attachments/assets/0f5b91ff-f896-43b1-b0cf-15880ae60191'/>
 
 ## 🌬️개발환경
 
