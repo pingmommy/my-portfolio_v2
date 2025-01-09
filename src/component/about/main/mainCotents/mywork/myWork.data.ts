@@ -15,7 +15,7 @@ export const MY_WORK_DATA = [
     alt: "secondhadshop image",
     name: "Second Hand Shop",
     summary: `# NextJS 12 / GraphQL / ApolloClient / TypeScript / CSS in JS`,
-    href: "/",
+    href: "https://pingmommy.github.io/intro_SHS/",
   },
   {
     src: pingImg,
