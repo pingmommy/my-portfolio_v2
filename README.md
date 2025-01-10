@@ -20,7 +20,7 @@
 <br/>
 <br/>
 
-🌐배포링크 : https://my-portfolio-v2-orpin.vercel.app/
+🌐배포링크 : https://my-portfolio-v2-aras-projects-1337218a.vercel.app/
 
 <br/>
 <br/>
