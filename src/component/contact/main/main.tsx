@@ -1,19 +1,24 @@
+import Link from "next/link";
 import style from "./main.module.css";
+
 const contactLinks = [
   {
     title: "e.mail",
     sub: "Welcome to any contact.",
-    link: "mcar8764@gmail.com",
+    linkName: "mcar8764@gmail.com",
+    link: "#",
   },
   {
     title: "github",
     sub: "Just Look around.",
+    linkName: "https://github.com/pingmommy",
     link: "https://github.com/pingmommy",
   },
   {
     title: "work",
     sub: "You could check my work.",
-    link: "mcar8764@gmail.com",
+    linkName: "Check my work",
+    link: "/work",
   },
 ];
 
@@ -27,9 +32,15 @@ export default function ContactMain() {
               <h2 className={style.itemTitle}>{item.title}</h2>
               <div className={style.itemContent}>
                 <p className={style.contentSub}>{item.sub}</p>
-                <a href="#" className={style.contentLink}>
-                  {item.link}
-                </a>
+                {item.title === "work" ? (
+                  <Link href={item.link} className={style.contentLink}>
+                    {item.linkName}
+                  </Link>
+                ) : (
+                  <a href={item.link} className={style.contentLink}>
+                    {item.linkName}
+                  </a>
+                )}
               </div>
             </div>
           ))}

@@ -2,6 +2,8 @@ import portfolioImg from "../../../../../../public/portfolio.png";
 import secondhandshopImg from "../../../../../../public/secondhandshop.png";
 import pingImg from "../../../../../../public/ping.png";
 import conceptImg from "../../../../../../public/11concept.png";
+import myWeatherImg from "../../../../../../public/myWeather.png";
+
 export const MY_WORK_DATA = [
   {
     src: conceptImg,
@@ -23,6 +25,13 @@ export const MY_WORK_DATA = [
     name: "My Dog 삥이!",
     summary: "# NextJS 14 / GSAP / supabase / Vercel",
     href: "https://ping-app-aras-projects-1337218a.vercel.app/",
+  },
+  {
+    src: myWeatherImg,
+    alt: "my Weather image",
+    name: "my Weather",
+    summary: "# React19 / NextJS 15 / TypeScript / D3.js / Vercel",
+    href: "https://my-weather-mauve.vercel.app",
   },
   {
     src: portfolioImg,

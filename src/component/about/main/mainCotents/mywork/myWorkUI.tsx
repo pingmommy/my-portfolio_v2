@@ -5,9 +5,10 @@ import { MutableRefObject } from "react";
 
 interface Props {
   myContainer: MutableRefObject<null>;
+  data: typeof MY_WORK_DATA;
 }
 
-export default function MyWorkUI({ myContainer }: Props) {
+export default function MyWorkUI({ myContainer, data }: Props) {
   return (
     <>
       <section ref={myContainer}>
@@ -16,7 +17,7 @@ export default function MyWorkUI({ myContainer }: Props) {
         </h2>
         <div style={{ marginTop: "10rem" }}>
           <section className={`${style.myWorkSection} recent-item`}>
-            {MY_WORK_DATA.map((item, idx) => (
+            {data.map((item, idx) => (
               <div className={style.myWorkWrapper} key={idx}>
                 <a href={item.href} target="_blank">
                   <div className={style.visualContents}>

@@ -4,8 +4,10 @@ import gsap from "gsap";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
-
+import { MY_WORK_DATA } from "./myWork.data";
 import MyWorkUI from "./myWorkUI";
+
+const workData = MY_WORK_DATA.slice(0, 4);
 
 export default function MyWork() {
   const recent = useRef(null);
@@ -32,7 +34,7 @@ export default function MyWork() {
   );
   return (
     <>
-      <MyWorkUI myContainer={recent} />
+      <MyWorkUI myContainer={recent} data={workData} />
     </>
   );
 }

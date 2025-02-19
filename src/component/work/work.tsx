@@ -5,6 +5,7 @@ import MyWorkUI from "../about/main/mainCotents/mywork/myWorkUI";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import style from "./work.module.css";
+import { MY_WORK_DATA } from "../about/main/mainCotents/mywork/myWork.data";
 export default function RecentWork() {
   const container = useRef(null);
 
@@ -32,7 +33,7 @@ export default function RecentWork() {
 
   return (
     <main className={style.wrapper}>
-      <MyWorkUI myContainer={container} />
+      <MyWorkUI myContainer={container} data={MY_WORK_DATA} />
     </main>
   );
 }
